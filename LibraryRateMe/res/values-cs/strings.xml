@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rateme__dialog_first_title">Hodnocení aplikace</string>
+    <string name="rateme__dialog_first_message">Chtěli byste hodnotit tuto aplikaci?</string>
+    <string name="rateme__dialog_first_button_rate">Hodnotit aplikaci v Google Play</string>
+    <string name="rateme__dialog_first_thanks">Děkujeme za hodnocení!</string>
+    <string name="rateme__dialog_feedback_message">Chtěli byste sdílet svůj názor s přáteli?</string>
+    <string name="rateme__email_subject">Hodnocení pro %1$s</string>
+    <string name="rateme__icon_content_description">Ikona</string>
+</resources>
