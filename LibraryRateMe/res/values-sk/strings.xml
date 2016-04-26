@@ -4,7 +4,7 @@
     <string name="rateme__dialog_first_message">Chceli by ste ohodnotiť túto aplikáciu?</string>
     <string name="rateme__dialog_first_button_rate">Ohodnotiť aplikáciu v Google Play</string>
     <string name="rateme__dialog_first_thanks">Ďakujeme za hodnotenie!</string>
-    <string name="rateme__dialog_feedback_message">Chceli by ste zdieľať svoj názor s priateľmi?</string>
+    <string name="rateme__dialog_feedback_message">Chceli by ste sa podeliť o svoj názor?</string>
     <string name="rateme__email_subject">Hodnotenie pre %1$s</string>
     <string name="rateme__icon_content_description">Ikona</string>
 </resources>
