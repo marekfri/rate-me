@@ -5,12 +5,14 @@ Rate Me is an Android library that shows dialog to suggest the user to rate the 
 
 With a little twist: if the rating is positive, we take the user to the Play Store directly. Otherwise, we ask him for feedback via email. (This is all configurable.)
 
-This repository is forked from <a href="https://github.com/androidsx/rate-me">androidsx/rate-me</a> repository.
+<strong>This repository is forked from <a href="https://github.com/androidsx/rate-me">androidsx/rate-me</a> repository.
+
 What is new:
 <ul>
 <li>Rate-Me dialog is not dismissed when clicked outside</li>
 <li>Slovak and Czech localizations</li>
 </ul>
+</strong>
 
 <p>
 <img src="https://raw.githubusercontent.com/androidsx/rate-me/master/readme-images/rate-me-dialog-in-helium.png" width="256" />
