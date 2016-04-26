@@ -171,7 +171,9 @@ public class RateMeDialog extends DialogFragment {
             dismiss();
         }
 
-        return builder.setView(mView).setCustomTitle(tView).setCancelable(false).create();
+        Dialog dialog = builder.setView(mView).setCustomTitle(tView).setCancelable(false).create();
+        dialog.setCanceledOnTouchOutside(false);
+        return dialog;
     }
     
     @Override
