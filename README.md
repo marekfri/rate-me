@@ -5,6 +5,15 @@ Rate Me is an Android library that shows dialog to suggest the user to rate the 
 
 With a little twist: if the rating is positive, we take the user to the Play Store directly. Otherwise, we ask him for feedback via email. (This is all configurable.)
 
+<strong>This repository is forked from <a href="https://github.com/androidsx/rate-me">androidsx/rate-me</a> repository.
+
+What is new:
+<ul>
+<li>Rate-Me dialog is not dismissed when clicked outside</li>
+<li>Slovak and Czech localizations</li>
+</ul>
+</strong>
+
 <p>
 <img src="https://raw.githubusercontent.com/androidsx/rate-me/master/readme-images/rate-me-dialog-in-helium.png" width="256" />
 <img src="https://raw.githubusercontent.com/androidsx/rate-me/master/readme-images/rate-me-dialog-in-pixable.png" width="256" />
@@ -12,16 +21,23 @@ With a little twist: if the rating is positive, we take the user to the Play Sto
 
 How to integrate
 ================
+This library can be integrated to your project using <a href="https://jitpack.io/">jitpack.io</a>.
+
+Add this repository in your `build.gradle`:
+
+```xml
+repositories {
+    maven { url "https://jitpack.io" }
+}
+```
 
 Add this dependency in your `build.gradle`:
 
 ```xml
 dependencies {
-    compile 'com.androidsx:rate-me:X.Y.'
+    compile 'com.github.marekfri:rate-me:v4.1.1'
 }
 ```
-
-Find the latest version in [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.androidsx%22%20AND%20a%3A%22rate-me%22).
 
 How to use
 ==========
