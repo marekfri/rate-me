@@ -35,7 +35,7 @@ Add this dependency in your `build.gradle`:
 
 ```xml
 dependencies {
-    compile 'com.github.marekfri:rate-me:v4.1.1'
+    compile 'com.github.marekfri:rate-me:v4.2'
 }
 ```
 
