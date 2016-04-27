@@ -300,9 +300,9 @@ public class RateMeDialog extends DialogFragment {
                     Log.d(TAG, "No: open the feedback dialog");
                 } else {
                     dismiss();
+                    RateMeDialogTimer.setOptOut(getActivity(), true);
                     onRatingListener.onRating(OnRatingListener.RatingAction.LOW_RATING, ratingBar.getRating());
                 }
-                RateMeDialogTimer.setOptOut(getActivity(), true);
             }
         });
     }

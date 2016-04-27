@@ -86,6 +86,7 @@ public class FeedbackDialog extends DialogFragment {
         cancel.setOnClickListener(new View.OnClickListener()  {
             public void onClick(View v) {
                 dismiss();
+                RateMeDialogTimer.setOptOut(getActivity(), true);
                 onActionListener.onRating(OnRatingListener.RatingAction.LOW_RATING_REFUSED_TO_GIVE_FEEDBACK, getArguments().getFloat(EXTRA_RATING_BAR));
                 Log.d(TAG, "Canceled the feedback dialog");
             }
@@ -95,13 +96,16 @@ public class FeedbackDialog extends DialogFragment {
             @Override
             public void onClick(View v) {
                 goToMail(getArguments().getString(EXTRA_APP_NAME));
+                RateMeDialogTimer.setOptOut(getActivity(), true);
                 onActionListener.onRating(OnRatingListener.RatingAction.LOW_RATING_GAVE_FEEDBACK, getArguments().getFloat(EXTRA_RATING_BAR));
                 Log.d(TAG, "Agreed to provide feedback");
                 dismiss();
             }
         });
-        
-        return builder.setCustomTitle(confirmDialogTitleView).setView(confirmDialogView).create();
+
+        Dialog dialog = builder.setCustomTitle(confirmDialogTitleView).setView(confirmDialogView).create();
+        dialog.setCanceledOnTouchOutside(false);
+        return dialog;
     }
     
     private void initializeUiFieldsDialogGoToMail() {
