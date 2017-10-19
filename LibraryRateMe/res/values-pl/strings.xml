@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rateme__dialog_first_title">Oceń swoje doswiadczenia</string>
+    <string name="rateme__dialog_first_message">Jak oceniasz naszą aplikację?</string>
+    <string name="rateme__dialog_first_button_rate">Oceń naszą aplikację w Google Play</string>
+    <string name="rateme__dialog_first_thanks">Dziękujemy za ocenę!</string>
+    <string name="rateme__dialog_feedback_message">Czy chcesz się podzielić swoją opinią?</string>
+    <string name="rateme__email_subject">Odpowiedź na %1$s</string>
+    <string name="rateme__icon_content_description">Ikona</string>
+</resources>
