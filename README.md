@@ -10,7 +10,7 @@ With a little twist: if the rating is positive, we take the user to the Play Sto
 What is new:
 <ul>
 <li>Rate-Me dialog is not dismissed when clicked outside</li>
-<li>Slovak and Czech localizations</li>
+<li>Slovak, Czech and Polish localizations</li>
 </ul>
 </strong>
 
@@ -35,7 +35,7 @@ Add this dependency in your `build.gradle`:
 
 ```xml
 dependencies {
-    compile 'com.github.marekfri:rate-me:v4.2.3'
+    compile 'com.github.marekfri:rate-me:v4.2.4'
 }
 ```
 
